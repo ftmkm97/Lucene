@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "samim";
+    src: url("../fonts/Samim.woff");
+}
+@font-face {
+    font-family: "samim";
+    src: url("../fonts/Samim-Bold.woff");
+    font-weight: bold;
+}
+
+body {
+    font-family: samim;
+}
+
+.project-title {
+    font-family: samim;
+    font-weight: bold;
+    text-align: center;
+}
+
+#searchPanle {
+    margin-top: 20px;
+}
+
+#searchPanle .search-btn{
+    margin-top: 10px;
+    padding-right: 5px;
+}
+
+#searchPanle .search-input{
+    margin-top: 10px;
+    padding-left: 5px;
+}
+
+#searchPanle .search-results{
+    margin-top: 15px;
+}
+
+.search-results .list-group-item span {
+    display: block;
+    color: #9b9b9b;
+    padding-top: 3px;
+}
+
+.bootbox-body {
+    line-height: 2.3;
+}
